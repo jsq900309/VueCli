@@ -1,0 +1,54 @@
+#home{
+    width: 700px;
+    height: auto;
+    border: 5px solid #000;
+    margin: auto;
+    text-align: center;
+}
+
+#home img{
+    width: 130px;
+    height: 130px;
+    /*border-radius: 100px;*/
+}
+
+#home .imglist img{
+    width: 80px;
+    height: 80px;
+}
+
+#home .header{
+    background: #00000070;
+}
+
+#home .header h1{
+    color: #ffffff;
+    margin-top: 0;
+}
+#home .content .menu{
+    display: flex;
+    align-content: center;
+    padding: 5px 10px;
+}
+
+#home .content .menu .item{
+    width: 25%;
+    /*margin-right: 5px;*/
+    border: 1px solid #000000;
+    height: 30px;
+    line-height: 30px;
+}
+
+#home .content .userlist{
+    min-width: 700px;
+    min-height: 300px;
+    height: auto;
+    border: 1px solid #000000;
+    float: left;
+}
+
+#home .content .userlist .users{
+    float: left;
+    margin: 20px;
+    width: 18%;
+}
